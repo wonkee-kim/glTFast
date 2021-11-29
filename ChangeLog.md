@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - (Editor Import): Imported Mecanim AnimationClips now have Loop Time set to true (fixes #291)
 ### Fixed
 - Improved skin deformation on unorderd-joints-glTFs in projects with `Skin Weights` (quality setting) below 4 (#294)
+- One generic shader graph is used for URP 12 or newer and HDRP 10 or newer
 
 ## [4.4.10] - 2022-01-14
 ### Changed
