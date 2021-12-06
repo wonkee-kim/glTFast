@@ -6,9 +6,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 ### Changed
+- Generic shader graph `glTF-generic` for the Universal render pipe 12 or newer
+- Generic shader graph `glTF-HDRP` for High-Definition render pipe 10 or newer
 - `SkinnedMeshRenderer` created by the `GameObjectInstantiator` will have `updateWhenOffscreen` set to *true* to avoid culling issues (at a performance cost; #301)
 - (Editor Import): Imported Mecanim AnimationClips now have Loop Time set to true (fixes #291)
 ### Fixed
+- Correct emission in HDRP 12 and later
 - Improved skin deformation on unorderd-joints-glTFs in projects with `Skin Weights` (quality setting) below 4 (#294)
 - One generic shader graph is used for URP 12 or newer and HDRP 10 or newer
 
