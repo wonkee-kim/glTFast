@@ -14,6 +14,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - (Editor Import): Imported Mecanim AnimationClips now have Loop Time set to true (fixes #291)
 ### Fixed
 - Correct emission in HDRP 12 and later
+- (Shader Graph) Vertex color alpha channel is used properly
+- (Shader Graph) Correct vertex colors when project uses linear color space
 - Improved skin deformation on unorderd-joints-glTFs in projects with `Skin Weights` (quality setting) below 4 (#294)
 - One generic shader graph is used for URP 12 or newer and HDRP 10 or newer
 
